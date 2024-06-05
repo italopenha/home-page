@@ -42,6 +42,7 @@ function carregar() {
     wallpaper.style.backgroundImage = 'url(../imgs/15.jpg)'
   } else if (horas == '16') {
     wallpaper.style.backgroundImage = 'url(../imgs/16.jpg)'
+    document.body.style.alignItems = 'start'
   } else if (horas == '17') {
     wallpaper.style.backgroundImage = 'url(../imgs/17.jpg)'
   } else if (horas == '18') {
