@@ -161,8 +161,8 @@ function atualizarRelogio() {
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-between'
       body.style.alignItems = 'flex-end'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0.250)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0.250)';
       main.style.margin = '30px'
       card.style.margin = '30px'
       break;
