@@ -273,7 +273,7 @@ async function checkWeather(city) {
 document.addEventListener('DOMContentLoaded', function() {
   atualizarRelogio();
   setInterval(atualizarRelogio, 1000);
-  checkWeather("São Paulo");
+  checkWeather("Perus");
 
   const searchBox = document.querySelector(".search input")
   const searchBtn = document.querySelector(".search button")
