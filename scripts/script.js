@@ -33,8 +33,8 @@ function atualizarRelogio() {
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-around'
       body.style.alignItems = 'center'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0)';
       main.style.margin = '30px'
       card.style.margin = '30px'
       break;
@@ -43,16 +43,16 @@ function atualizarRelogio() {
       body.style.flexFlow = 'column nowrap';
       body.style.justifyContent = 'space-evenly'
       body.style.alignItems = 'center'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.300)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.300)';
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0.150)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0.150)';
       break;
     case "07":
       body.style.backgroundImage = 'url(../imgs/07.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-between'
       body.style.alignItems = 'center'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.350)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.350)';
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0.150)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0.150)';
       main.style.margin = '30px'
       card.style.margin = '30px'
       break;
@@ -61,8 +61,8 @@ function atualizarRelogio() {
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-between'
       body.style.alignItems = 'center'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.350)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.350)';
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
       main.style.margin = '30px'
       card.style.margin = '30px'
       break;
@@ -70,114 +70,54 @@ function atualizarRelogio() {
       body.style.backgroundImage = 'url(../imgs/09.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-between'
-      body.style.alignItems = 'center'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.450)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.450)';
+      body.style.alignItems = 'end'
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
       main.style.margin = '30px'
       card.style.margin = '30px'
       break;
     case "10":
       body.style.backgroundImage = 'url(../imgs/10.jpg)';
-      body.style.flexFlow = 'column nowrap';
-      body.style.justifyContent = 'space-around'
-      body.style.alignItems = 'center'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.350)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.350)';
+      body.style.flexFlow = 'row nowrap';
+      body.style.justifyContent = 'space-between'
+      body.style.alignItems = 'end'
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
       main.style.margin = '30px'
       card.style.margin = '30px'
       break;
     case "11":
       body.style.backgroundImage = 'url(../imgs/11.jpg)';
-      body.style.flexFlow = 'column nowrap';
-      body.style.justifyContent = 'space-around'
-      body.style.alignItems = 'center'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
+      body.style.flexFlow = 'row nowrap';
+      body.style.justifyContent = 'space-between'
+      body.style.alignItems = 'end'
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
       main.style.margin = '30px'
       card.style.margin = '30px'
       break;
     case "12":
       body.style.backgroundImage = 'url(../imgs/12.jpg)';
       body.style.flexFlow = 'row nowrap';
-      body.style.justifyContent = 'space-around'
-      body.style.alignItems = 'flex-start'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
+      body.style.justifyContent = 'space-between'
+      body.style.alignItems = 'flex-end'
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
       main.style.margin = '30px'
       card.style.margin = '30px'
       break;
     case "13":
       body.style.backgroundImage = 'url(../imgs/13.jpg)';
-      body.style.flexFlow = 'column nowrap';
+      body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-around'
-      body.style.alignItems = 'center'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
+      body.style.alignItems = 'start'
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
       main.style.margin = '30px'
       card.style.margin = '30px'
       break;
     case "14":
       body.style.backgroundImage = 'url(../imgs/14.jpg)';
-      body.style.flexFlow = 'row nowrap';
-      body.style.justifyContent = 'space-around'
-      body.style.alignItems = 'flex-start'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
-      main.style.margin = '30px'
-      card.style.margin = '30px'
-      break;
-    case "15":
-      body.style.backgroundImage = 'url(../imgs/15.jpg)';
-      body.style.flexFlow = 'row nowrap';
-      body.style.justifyContent = 'space-around'
-      body.style.alignItems = 'center'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
-      main.style.margin = '30px'
-      card.style.margin = '30px'
-      break;
-    case "16":
-      body.style.backgroundImage = 'url(../imgs/16.jpg)';
-      body.style.flexFlow = 'row nowrap';
-      body.style.justifyContent = 'space-between'
-      body.style.alignItems = 'flex-start'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
-      main.style.margin = '30px'
-      card.style.margin = '30px'
-      break;
-    case "17":
-      body.style.backgroundImage = 'url(../imgs/17.jpg)';
-      body.style.flexFlow = 'column nowrap';
-      body.style.justifyContent = 'space-between'
-      body.style.alignItems = 'center'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
-      main.style.margin = '30px'
-      card.style.margin = '30px'
-      break;
-    case "18":
-      body.style.backgroundImage = 'url(../imgs/18.jpg)';
-      body.style.flexFlow = 'row nowrap';
-      body.style.justifyContent = 'space-between'
-      body.style.alignItems = 'flex-end'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.250)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.250)';
-      main.style.margin = '30px'
-      card.style.margin = '30px'
-      break;
-    case "19":
-      body.style.backgroundImage = 'url(../imgs/19.jpg)';
-      body.style.flexFlow = 'row nowrap';
-      body.style.justifyContent = 'space-between'
-      body.style.alignItems = 'center'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
-      main.style.margin = '30px'
-      card.style.margin = '30px'
-      break;
-    case "20":
-      body.style.backgroundImage = 'url(../imgs/20.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-between'
       body.style.alignItems = 'flex-start'
@@ -186,13 +126,73 @@ function atualizarRelogio() {
       main.style.margin = '30px'
       card.style.margin = '30px'
       break;
+    case "15":
+      body.style.backgroundImage = 'url(../imgs/15.jpg)';
+      body.style.flexFlow = 'row nowrap';
+      body.style.justifyContent = 'space-around'
+      body.style.alignItems = 'flex-start'
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
+      main.style.margin = '30px'
+      card.style.margin = '30px'
+      break;
+    case "16":
+      body.style.backgroundImage = 'url(../imgs/16.jpg)';
+      body.style.flexFlow = 'row nowrap';
+      body.style.justifyContent = 'space-around'
+      body.style.alignItems = 'flex-start'
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0.150)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0.150)';
+      main.style.margin = '30px'
+      card.style.margin = '30px'
+      break;
+    case "17":
+      body.style.backgroundImage = 'url(../imgs/17.jpg)';
+      body.style.flexFlow = 'row nowrap';
+      body.style.justifyContent = 'space-around'
+      body.style.alignItems = 'flex-start'
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
+      main.style.margin = '30px'
+      card.style.margin = '30px'
+      break;
+    case "18":
+      body.style.backgroundImage = 'url(../imgs/18.jpg)';
+      body.style.flexFlow = 'row nowrap';
+      body.style.justifyContent = 'space-around'
+      body.style.alignItems = 'flex-start'
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
+      main.style.margin = '30px'
+      card.style.margin = '30px'
+      break;
+    case "19":
+      body.style.backgroundImage = 'url(../imgs/19.jpg)';
+      body.style.flexFlow = 'row nowrap';
+      body.style.justifyContent = 'space-around'
+      body.style.alignItems = 'flex-start'
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+      main.style.margin = '30px'
+      card.style.margin = '30px'
+      break;
+    case "20":
+      body.style.backgroundImage = 'url(../imgs/20.jpg)';
+      body.style.flexFlow = 'row nowrap';
+      body.style.justifyContent = 'space-between'
+      body.style.alignItems = 'flex-end'
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
+      main.style.margin = '30px'
+      card.style.margin = '30px'
+      break;
     case "21":
       body.style.backgroundImage = 'url(../imgs/21.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-around'
-      body.style.alignItems = 'center'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.450)';
+      body.style.alignItems = 'flex-end'
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0.100)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0.100)';
       main.style.margin = '30px'
       card.style.margin = '30px'
       break;
@@ -202,19 +202,17 @@ function atualizarRelogio() {
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-around'
       body.style.alignItems = 'center'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.250)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.250)';
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0.100)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0.100)';
       main.style.margin = '30px'
       card.style.margin = '30px'
       break;
     case "23":
       body.style.backgroundImage = 'url(../imgs/23.jpg)';
-      body.style.justifyContent = 'center';
       body.style.flexFlow = 'row nowrap';
-      body.style.justifyContent = 'space-around'
-      body.style.alignItems = 'center'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.250)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.250)';
+      body.style.alignItems = 'flex-start'
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
       main.style.margin = '30px'
       card.style.margin = '30px'
       break;
