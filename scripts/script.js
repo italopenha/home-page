@@ -29,7 +29,7 @@ function atualizarRelogio() {
 
   switch (horas.toString()) {
     case "00":
-      body.style.backgroundImage = 'url(../imgs/00.jpg)';
+      body.style.backgroundImage = 'url(./imgs/00.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-around'
       body.style.alignItems = 'center'
@@ -39,7 +39,7 @@ function atualizarRelogio() {
       card.style.margin = '30px'
       break;
     case "06":
-      body.style.backgroundImage = 'url(../imgs/06.jpg)';
+      body.style.backgroundImage = 'url(./imgs/06.jpg)';
       body.style.flexFlow = 'column nowrap';
       body.style.justifyContent = 'space-evenly'
       body.style.alignItems = 'center'
@@ -47,7 +47,7 @@ function atualizarRelogio() {
       card.style.backgroundColor = 'rgba(0, 0, 0, 0.150)';
       break;
     case "07":
-      body.style.backgroundImage = 'url(../imgs/07.jpg)';
+      body.style.backgroundImage = 'url(./imgs/07.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-between'
       body.style.alignItems = 'center'
@@ -57,7 +57,7 @@ function atualizarRelogio() {
       card.style.margin = '30px'
       break;
     case "08":
-      body.style.backgroundImage = 'url(../imgs/08.jpg)';
+      body.style.backgroundImage = 'url(./imgs/08.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-between'
       body.style.alignItems = 'center'
@@ -67,7 +67,7 @@ function atualizarRelogio() {
       card.style.margin = '30px'
       break;
     case "09":
-      body.style.backgroundImage = 'url(../imgs/09.jpg)';
+      body.style.backgroundImage = 'url(./imgs/09.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-between'
       body.style.alignItems = 'end'
@@ -77,7 +77,7 @@ function atualizarRelogio() {
       card.style.margin = '30px'
       break;
     case "10":
-      body.style.backgroundImage = 'url(../imgs/10.jpg)';
+      body.style.backgroundImage = 'url(./imgs/10.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-between'
       body.style.alignItems = 'end'
@@ -87,7 +87,7 @@ function atualizarRelogio() {
       card.style.margin = '30px'
       break;
     case "11":
-      body.style.backgroundImage = 'url(../imgs/11.jpg)';
+      body.style.backgroundImage = 'url(./imgs/11.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-between'
       body.style.alignItems = 'end'
@@ -97,7 +97,7 @@ function atualizarRelogio() {
       card.style.margin = '30px'
       break;
     case "12":
-      body.style.backgroundImage = 'url(../imgs/12.jpg)';
+      body.style.backgroundImage = 'url(./imgs/12.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-between'
       body.style.alignItems = 'flex-end'
@@ -107,7 +107,7 @@ function atualizarRelogio() {
       card.style.margin = '30px'
       break;
     case "13":
-      body.style.backgroundImage = 'url(../imgs/13.jpg)';
+      body.style.backgroundImage = 'url(./imgs/13.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-around'
       body.style.alignItems = 'start'
@@ -117,7 +117,7 @@ function atualizarRelogio() {
       card.style.margin = '30px'
       break;
     case "14":
-      body.style.backgroundImage = 'url(../imgs/14.jpg)';
+      body.style.backgroundImage = 'url(./imgs/14.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-between'
       body.style.alignItems = 'flex-start'
@@ -127,7 +127,7 @@ function atualizarRelogio() {
       card.style.margin = '30px'
       break;
     case "15":
-      body.style.backgroundImage = 'url(../imgs/15.jpg)';
+      body.style.backgroundImage = 'url(./imgs/15.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-around'
       body.style.alignItems = 'flex-start'
@@ -137,7 +137,7 @@ function atualizarRelogio() {
       card.style.margin = '30px'
       break;
     case "16":
-      body.style.backgroundImage = 'url(../imgs/16.jpg)';
+      body.style.backgroundImage = 'url(./imgs/16.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-around'
       body.style.alignItems = 'flex-start'
@@ -147,7 +147,7 @@ function atualizarRelogio() {
       card.style.margin = '30px'
       break;
     case "17":
-      body.style.backgroundImage = 'url(../imgs/17.jpg)';
+      body.style.backgroundImage = 'url(./imgs/17.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-around'
       body.style.alignItems = 'flex-start'
@@ -157,7 +157,7 @@ function atualizarRelogio() {
       card.style.margin = '30px'
       break;
     case "18":
-      body.style.backgroundImage = 'url(../imgs/18.jpg)';
+      body.style.backgroundImage = 'url(./imgs/18.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-around'
       body.style.alignItems = 'flex-start'
@@ -167,7 +167,7 @@ function atualizarRelogio() {
       card.style.margin = '30px'
       break;
     case "19":
-      body.style.backgroundImage = 'url(../imgs/19.jpg)';
+      body.style.backgroundImage = 'url(./imgs/19.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-around'
       body.style.alignItems = 'flex-start'
@@ -177,7 +177,7 @@ function atualizarRelogio() {
       card.style.margin = '30px'
       break;
     case "20":
-      body.style.backgroundImage = 'url(../imgs/20.jpg)';
+      body.style.backgroundImage = 'url(./imgs/20.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-between'
       body.style.alignItems = 'flex-end'
@@ -187,7 +187,7 @@ function atualizarRelogio() {
       card.style.margin = '30px'
       break;
     case "21":
-      body.style.backgroundImage = 'url(../imgs/21.jpg)';
+      body.style.backgroundImage = 'url(./imgs/21.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-around'
       body.style.alignItems = 'flex-end'
@@ -197,7 +197,7 @@ function atualizarRelogio() {
       card.style.margin = '30px'
       break;
     case "22":
-      body.style.backgroundImage = 'url(../imgs/22.jpg)';
+      body.style.backgroundImage = 'url(./imgs/22.jpg)';
       body.style.justifyContent = 'center';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-around'
@@ -208,7 +208,7 @@ function atualizarRelogio() {
       card.style.margin = '30px'
       break;
     case "23":
-      body.style.backgroundImage = 'url(../imgs/23.jpg)';
+      body.style.backgroundImage = 'url(./imgs/23.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.alignItems = 'flex-start'
       main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
@@ -217,7 +217,7 @@ function atualizarRelogio() {
       card.style.margin = '30px'
       break;
     default:
-      body.style.backgroundImage = 'url(../imgs/00.jpg)';
+      body.style.backgroundImage = 'url(./imgs/00.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-around'
       body.style.alignItems = 'center'
@@ -248,19 +248,19 @@ async function checkWeather(city) {
         document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 
         if (data.weather[0].main == "Clouds") {
-            weatherIcon.src = "imgs/clouds.png"
+            weatherIcon.src = "./imgs/clouds.png"
         }
         else if (data.weather[0].main == "Clear") {
-            weatherIcon.src = "imgs/clear.png"
+            weatherIcon.src = "./imgs/clear.png"
         }
         else if (data.weather[0].main == "Rain") {
-            weatherIcon.src = "imgs/rain.png"
+            weatherIcon.src = "./imgs/rain.png"
         }
         else if (data.weather[0].main == "Drizzle") {
-            weatherIcon.src = "imgs/drizzle.png"
+            weatherIcon.src = "./imgs/drizzle.png"
         }
         else if (data.weather[0].main == "Mist") {
-            weatherIcon.src = "imgs/mist.png"
+            weatherIcon.src = "./imgs/mist.png"
         }
 
         document.querySelector(".weather").style.display = "block"
@@ -287,4 +287,3 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
-
