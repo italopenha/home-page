@@ -180,7 +180,7 @@ function atualizarRelogio() {
       body.style.backgroundImage = 'url(./imgs/20.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-between'
-      body.style.alignItems = 'flex-end'
+      body.style.alignItems = 'flex-start'
       main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
       card.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
       main.style.margin = '30px'
