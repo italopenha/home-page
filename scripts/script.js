@@ -247,20 +247,38 @@ async function checkWeather(city) {
         document.querySelector(".humidity").innerHTML = data.main.humidity + " %";
         document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 
-        if (data.weather[0].main == "Clouds") {
-            weatherIcon.src = "./imgs/clouds.png"
+        if (data.weather[0].icon == "01d") {
+            weatherIcon.src = "./imgs/01d.png"
         }
-        else if (data.weather[0].main == "Clear") {
-            weatherIcon.src = "./imgs/clear.png"
+        else if (data.weather[0].icon == "01n") {
+            weatherIcon.src = "./imgs/01n.png"
         }
-        else if (data.weather[0].main == "Rain") {
-            weatherIcon.src = "./imgs/rain.png"
+        else if (data.weather[0].icon == "02d") {
+            weatherIcon.src = "./imgs/02d.png"
         }
-        else if (data.weather[0].main == "Drizzle") {
-            weatherIcon.src = "./imgs/drizzle.png"
+        else if (data.weather[0].icon == "02n") {
+            weatherIcon.src = "./imgs/02n.png"
         }
-        else if (data.weather[0].main == "Mist") {
-            weatherIcon.src = "./imgs/mist.png"
+        else if (data.weather[0].icon == "03d" || data.weather[0].icon == "03n") {
+            weatherIcon.src = "./imgs/03.png"
+        }
+        else if (data.weather[0].icon == "04d" || data.weather[0].icon == "04n") {
+            weatherIcon.src = "./imgs/04.png"
+        }
+        else if (data.weather[0].icon == "09d" || data.weather[0].icon == "09n") {
+            weatherIcon.src = "./imgs/09.png"
+        }
+        else if (data.weather[0].icon == "10d" || data.weather[0].icon == "10n") {
+            weatherIcon.src = "./imgs/10.png"
+        }
+        else if (data.weather[0].icon == "11d" || data.weather[0].icon == "11n") {
+            weatherIcon.src = "./imgs/11.png"
+        }
+        else if (data.weather[0].icon == "13d" || data.weather[0].icon == "13n") {
+            weatherIcon.src = "./imgs/13.png"
+        }
+        else if (data.weather[0].icon == "50d" || data.weather[0].icon == "50n") {
+            weatherIcon.src = "./imgs/50.png"
         }
 
         document.querySelector(".weather").style.display = "block"
