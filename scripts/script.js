@@ -80,7 +80,7 @@ function atualizarRelogio() {
       body.style.backgroundImage = 'url(./imgs/10.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-between'
-      body.style.alignItems = 'end'
+      body.style.alignItems = 'start'
       main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
       card.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
       main.style.margin = '30px'
@@ -100,7 +100,7 @@ function atualizarRelogio() {
       body.style.backgroundImage = 'url(./imgs/12.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-between'
-      body.style.alignItems = 'flex-end'
+      body.style.alignItems = 'flex-start'
       main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
       card.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
       main.style.margin = '30px'
@@ -110,7 +110,7 @@ function atualizarRelogio() {
       body.style.backgroundImage = 'url(./imgs/13.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-around'
-      body.style.alignItems = 'start'
+      body.style.alignItems = 'flex-end'
       main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
       card.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
       main.style.margin = '30px'
@@ -120,19 +120,19 @@ function atualizarRelogio() {
       body.style.backgroundImage = 'url(./imgs/14.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-between'
-      body.style.alignItems = 'flex-start'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.300)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.300)';
+      body.style.alignItems = 'flex-end'
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
       main.style.margin = '30px'
       card.style.margin = '30px'
       break;
     case "15":
       body.style.backgroundImage = 'url(./imgs/15.jpg)';
-      body.style.flexFlow = 'row nowrap';
+      body.style.flexFlow = 'column nowrap';
       body.style.justifyContent = 'space-around'
-      body.style.alignItems = 'flex-start'
-      main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
-      card.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
+      body.style.alignItems = 'flex-center'
+      main.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
+      card.style.backgroundColor = 'rgba(0, 0, 0, 0.400)';
       main.style.margin = '30px'
       card.style.margin = '30px'
       break;
@@ -160,7 +160,7 @@ function atualizarRelogio() {
       body.style.backgroundImage = 'url(./imgs/18.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-around'
-      body.style.alignItems = 'flex-start'
+      body.style.alignItems = 'flex-end'
       main.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
       card.style.backgroundColor = 'rgba(0, 0, 0, 0.200)';
       main.style.margin = '30px'
@@ -190,7 +190,7 @@ function atualizarRelogio() {
       body.style.backgroundImage = 'url(./imgs/21.jpg)';
       body.style.flexFlow = 'row nowrap';
       body.style.justifyContent = 'space-around'
-      body.style.alignItems = 'flex-end'
+      body.style.alignItems = 'flex-start'
       main.style.backgroundColor = 'rgba(0, 0, 0, 0.100)';
       card.style.backgroundColor = 'rgba(0, 0, 0, 0.100)';
       main.style.margin = '30px'
