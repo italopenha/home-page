@@ -26,3 +26,6 @@ Uma página inicial responsiva que combina um relógio em tempo real com informa
 - **JavaScript ES6+** - Lógica e interatividade
 - **OpenWeatherMap API** - Dados meteorológicos
 - **Google Fonts** - Tipografia (Montserrat)
+
+## 📸 Imagens
+- Unplash: https://unsplash.com/pt-br
