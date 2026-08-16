@@ -5,10 +5,10 @@ Uma página inicial responsiva que combina um relógio em tempo real com informa
 ## 📸 Screenshots
 
 ### 🖥️ Desktop
-<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/0e4ff72c-9fff-4e59-88bb-90ce57545db8" />
+<img width="1915" height="944" alt="Captura de tela 2026-08-16 133511" src="https://github.com/user-attachments/assets/8287adb8-e6b5-495d-b0df-a83570feb646" />
 
 ### 📱 Mobile
-<img width="200" height="450" alt="image" src="https://github.com/user-attachments/assets/d551b8f0-4dbc-40ca-88c0-e9a7ece6b75e" />
+<img width="412" height="846" alt="Captura de tela 2026-08-16 133543" src="https://github.com/user-attachments/assets/bdfe3e4a-2975-49db-8224-373a551bc521" />
 
 ## ✨ Funcionalidades
 
